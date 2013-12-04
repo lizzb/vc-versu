@@ -1,0 +1,11 @@
+{
+"Name": "Hello World"
+"Moniker": "hello_world"
+"Description": ""
+"Author": "Anonymous"
+"AuthorDescription": ""
+"PraxisFile": "stories/hello_world/prompter_output.praxis"
+"InitFunction": "init_hello_world_episode.X"
+"StartFunction": "start_hello_world_episode"
+"RequiredCharacters": [ "linus_bergstrom", "storm_sparks" ]
+}

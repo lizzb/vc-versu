@@ -1,0 +1,505 @@
+/* This CSS is used to style the results from a Prompter compilation */
+
+body.paper {
+	font-family: lucida grande,geneva,arial,tahoma,verdana,helvetica,helv;
+	font-size: 100%;
+	line-height: 1.25em;
+	text-align: left;
+	overflow-y: scroll;
+	-webkit-hyphens: none;
+}
+
+body.papertint {
+	background-color: #ffffff;	
+}
+
+/* ------------------------------------------------------------------------ */
+/* Links */
+
+a:link {										/* unvisited link */
+	text-decoration: none;
+	color: #202020;
+}
+a:visited {									/* visited link */
+	text-decoration: none;
+	color: #202020;
+}
+a:hover {										/* mouse over link */
+	text-decoration: none;
+	color: #D00000;
+}
+a:active {										/* selected link */
+	text-decoration: none;
+	color: #D00000;
+}
+
+/* ------------------------------------------------------------------------ */
+/* Headings */
+
+/* For headings such as "Chapter 2. Instructions" */
+
+p.heading {
+	color: #000000;
+	font-size: 1.3em;
+	text-align: left;
+}
+
+/* For headings such as "§2.4. Targets" */
+
+p.subheading {
+	color: #000000;
+	font-size: 1.1em;
+}
+
+div.scenebox {
+	background-color: #dddddd;
+	padding: 0px 8px 0px 8px;
+	border: 0px;
+}
+
+div.innerbox {
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+	border-width: 0px;
+	position:relative;
+}
+
+div.innerbox a {
+	position:absolute;
+	width:100%;
+	height:100%;
+	top:0;
+	left:0;
+	text-decoration:none;
+	z-index:10;
+}
+
+div.innerinnerbox {
+	display: none;
+	width:100%;
+}
+
+div.innerinnerboxd {
+	display: block;
+	width:100%;
+}
+
+div.endscenebox {
+	background-color: #ddeeff;
+	margin: 0px;
+	padding: 0px 8px 0px 8px;
+	width: 100%;
+}
+
+div.throughoutscenebox {
+	background-color: #eeeeee;
+	margin: 0px;
+	padding: 0px 8px 0px 8px;
+	width: 100%;
+}
+
+div.scenemap {
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+}
+
+div.flow {
+	z-index:-1;
+}
+
+div.spacer {
+	width: 1px;
+	height: 5px;
+}
+
+div.junctionbox {
+	width: 100%;
+	height: 22px;
+	display: none;
+	position: relative;
+}
+
+div.bluecirc {
+    -webkit-border-radius: 999px;
+    -moz-border-radius: 999px;
+    border-radius: 999px;
+    behavior: url(PIE.htc); /* an IE only thing */
+
+    width: 12px;
+    height: 12px;
+    padding: 3px;
+    
+    background: transparent;
+    border: 2px solid #008;
+    color: #000;
+    text-align: center;
+    
+    font: 13px Arial, sans-serif;
+}
+
+div.redcirc {
+    -webkit-border-radius: 999px;
+    -moz-border-radius: 999px;
+    border-radius: 999px;
+    behavior: url(PIE.htc); /* an IE only thing */
+
+    width: 12px;
+    height: 12px;
+    padding: 3px;
+    
+    background: transparent;
+    border: 2px solid #800;
+    color: #000;
+    text-align: center;
+    
+    font: 13px Arial, sans-serif;
+}
+
+div.greencirc {
+    -webkit-border-radius: 999px;
+    -moz-border-radius: 999px;
+    border-radius: 999px;
+    behavior: url(PIE.htc); /* an IE only thing */
+
+    width: 12px;
+    height: 12px;
+    padding: 3px;
+    
+    background: transparent;
+    border: 2px solid #080;
+    color: #000;
+    text-align: center;
+    
+    font: 13px Arial, sans-serif;
+}
+
+/* ------------------------------------------------------------------------ */
+/* Body text */
+
+p {
+	text-align: left;
+	font-size: 0.8em;
+}
+
+span.severity {	
+	font-weight:bold;
+}
+
+table.jboxtable {
+	border-collapse: collapse;
+	color: #000080;
+	padding: 0;
+	margin: 8px;
+	width: 700px;
+}
+
+td.jboxcelln {
+	vertical-align: top;
+	text-align:left;
+	background-color:#ffffcc;
+	padding: 7px 7px 7px 7px;
+	font-size:12px;
+	font-family:Courier;
+	font-weight:normal;
+	color:#000000;
+	width:24px;
+}
+
+td.jboxcell {
+	vertical-align: top;
+	text-align:left;
+	background-color:#ffffcc;
+	padding: 7px 7px 7px 7px;
+	font-size:12px;
+	font-family:Courier;
+	font-weight:normal;
+	color:#000000;
+}
+
+table.cboxtable {
+	border-collapse: collapse;
+	color: #000080;
+	padding: 0;
+	margin: 2px;
+	width: 700px;
+}
+
+td.cboxcelln {
+	vertical-align: top;
+	text-align:left;
+	background-color:#ffffcc;
+	padding: 0px 7px 0px 7px;
+	font-size:12px;
+	font-family:Courier;
+	font-weight:normal;
+	color:#000000;
+	width:24px;
+}
+
+td.cboxcell {
+	vertical-align: top;
+	text-align:left;
+	background-color:#ffffcc;
+	padding: 0px 7px 0px 7px;
+	font-size:12px;
+	font-family:Courier;
+	font-weight:normal;
+	color:#000000;
+}
+
+td.cboxcellnt {
+	vertical-align: top;
+	text-align:left;
+	background-color:#eeeebb;
+	padding: 0px 7px 0px 7px;
+	font-size:12px;
+	font-family:Courier;
+	font-weight:normal;
+	color:#000000;
+	width:24px;
+}
+
+td.cboxcellt {
+	vertical-align: top;
+	text-align:left;
+	background-color:#eeeebb;
+	padding: 0px 7px 0px 7px;
+	font-size:12px;
+	font-family:Courier;
+	font-weight:normal;
+	color:#000000;
+}
+
+span.scenename {
+	font-weight: bold;
+}
+
+span.dframework {
+	font-weight: bold;
+	color:#008000;
+}
+
+span.dialogue {
+}
+
+table.codetable {
+	border-collapse: collapse;
+	color: #000080;
+	padding: 0;
+}
+
+td.linecell {
+	vertical-align: top;
+	background-color:#ccffe4;
+	border:1px solid #888888;
+	border-width:1px 1px 1px 1px;
+	text-align:right;
+	padding: 0px 7px 0px 7px;
+	font-size:12px;
+	font-family:Courier;
+	font-weight:normal;
+	color:#000000;
+}
+
+td.codecell {
+	vertical-align: top;
+	background-color:#bbffe4;
+	border:1px solid #888888;
+	border-width:1px 1px 1px 1px;
+	text-align:left;
+	padding: 0px 7px 0px 7px;
+	font-size:12px;
+	font-family:Courier;
+	font-weight:bold;
+	color:#000000;
+}
+
+td.eglinecell {
+	vertical-align: top;
+	background-color:#ffcce4;
+	border:1px solid #888888;
+	border-width:1px 1px 1px 1px;
+	text-align:right;
+	padding: 0px 7px 0px 7px;
+	font-size:12px;
+	font-family:Courier;
+	font-weight:normal;
+	color:#000000;
+}
+
+td.egcodecell {
+	vertical-align: top;
+	background-color:#ffbbe4;
+	border:1px solid #888888;
+	border-width:1px 1px 1px 1px;
+	text-align:left;
+	padding: 0px 7px 0px 7px;
+	font-size:12px;
+	font-family:Courier;
+	font-weight:bold;
+	color:#000000;
+}
+
+td.codecelldark {
+	vertical-align: top;
+	background-color:#99eec4;
+	border:1px solid #888888;
+	border-width:1px 1px 1px 1px;
+	text-align:left;
+	padding: 0px 7px 0px 7px;
+	font-size:12px;
+	font-family:Courier;
+	font-weight:bold;
+	color:#000000;
+}
+
+td.egcodecelldark {
+	vertical-align: top;
+	background-color:#ee99c4;
+	border:1px solid #888888;
+	border-width:1px 1px 1px 1px;
+	text-align:left;
+	padding: 0px 7px 0px 7px;
+	font-size:12px;
+	font-family:Courier;
+	font-weight:bold;
+	color:#000000;
+}
+
+td.codecelllight {
+	vertical-align: top;
+	background-color:#ccffe4;
+	border:1px solid #888888;
+	border-width:1px 1px 1px 1px;
+	text-align:left;
+	padding: 0px 7px 0px 7px;
+	font-size:12px;
+	font-family:Courier;
+	font-weight:normal;
+	color:#000000;
+}
+
+td.egcodecelllight {
+	vertical-align: top;
+	background-color:#ffcce4;
+	border:1px solid #888888;
+	border-width:1px 1px 1px 1px;
+	text-align:left;
+	padding: 0px 7px 0px 7px;
+	font-size:12px;
+	font-family:Courier;
+	font-weight:normal;
+	color:#000000;
+}
+
+ul.navbar {
+	list-style-type:none;
+	margin:0;
+	padding:0;
+	overflow:hidden;
+}
+li.navli {
+	float:left;
+}
+
+div.subheaddiv {
+	background-color:#eeeeee;
+	width:100%;
+	padding: 4px;
+}
+
+div.subheaddivhidden {
+	background-color:#eeeeee;
+	width:100%;
+	padding: 4px;
+	display: none;
+}
+
+div.indexpageio {
+	display: block;
+}
+
+div.indexpageic {
+	display: none;
+}
+
+table.chartable {
+	border-collapse: collapse;
+	color: #000080;
+	padding: 0;
+}
+
+td.charcelln {
+	vertical-align: top;
+	background-color:#ffe4f4;
+	border:1px solid #888888;
+	border-width:1px 1px 1px 1px;
+	text-align:right;
+	padding: 0px 7px 0px 7px;
+	font-size:12px;
+	font-family:Courier;
+	font-weight:normal;
+	color:#000000;
+}
+
+td.charcella {
+	vertical-align: top;
+	background-color:#ffe4f4;
+	border:1px solid #888888;
+	border-width:1px 1px 1px 1px;
+	text-align:left;
+	padding: 0px 7px 0px 7px;
+	font-size:12px;
+	font-family:Courier;
+	font-weight:normal;
+	color:#000000;
+}
+
+td.charcell {
+	vertical-align: top;
+	background-color:#ffe4f4;
+	border:1px solid #888888;
+	border-width:1px 1px 1px 1px;
+	text-align:left;
+	padding: 0px 7px 0px 7px;
+	font-size:12px;
+	font-family:Courier;
+	font-weight:bold;
+	color:#000000;
+}
+
+div.sceneboxp {
+	position: relative;
+	background-color: #dddddd;
+	padding: 0px 8px 0px 8px;
+	border: 0px;
+}
+
+.sceneboxp:before {
+	content: "";
+	position: absolute;
+	top: 0%;
+	left: 0%;
+	width: 0px;
+	height: 0px;
+	border-top: 8px solid #567;
+	border-right: 8px solid transparent;
+}
+
+span.hiddenpercent {
+	display:none;
+	font-weight:bold;
+}
+
+span.hiddenpercentnb {
+	display:none;
+	font-weight:bold;
+	font-style:italic;
+}
+
+span.shownpercent {
+	display:inline;
+	font-weight:bold;
+}

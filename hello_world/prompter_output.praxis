@@ -1,0 +1,73 @@
+praxis 1
+import "core/core.type"
+import "characters/linus_bergstrom/character_linus_bergstrom.data"
+import "characters/storm_sparks/character_storm_sparks.data"
+
+// Generated from playtext by prompter 1.19.
+
+types
+	hello_world(episode)
+	bedroom(container)
+	q0_linus_bergstrom_1(quip)
+	linus_wakes_up(scene)
+end
+
+function.stocker_for_linus_wakes_up
+	insert data.quip.q0_linus_bergstrom_1
+	{
+		unique_to_scene!linus_wakes_up
+		unique_to.linus_bergstrom
+		introductory
+		tell_text!"Hello, world!"
+		tell_verb!"Greet the dawn"
+	}
+	
+end
+
+function.init_hello_world_episode.EPNUM(number)
+	call standard_after_choosing_episode.EPNUM.hello_world.modern
+	insert data.episode.hello_world.role.player1
+	{
+		title!"The Hero"
+		index!1
+		playable!true
+		can_play!{X}[X=linus_bergstrom]
+	}
+	
+	insert data.episode.hello_world.role.player2
+	{
+		title!"The Heroine"
+		index!2
+		playable!false
+		can_play!{X}[X=storm_sparks]
+	}
+	
+	insert data.genre_specific.modern.init!modern_init
+end
+
+function.start_hello_world_episode
+	call episode_title."Hello World"
+	call standard_after_choosing_players
+	insert data.scene_data.linus_wakes_up
+	{
+		noun!"Linus wakes up"
+		set_location.linus_bergstrom!bedroom
+		set_location.storm_sparks!bedroom
+		movement_restricted
+		timeout_conclusion.null_scene!"The story has ended due to inactivity."!10000
+		setup!stocker_for_linus_wakes_up
+	}
+	
+	call physics_for_hello_world
+	call set_scene.linus_wakes_up
+end
+
+function.physics_for_hello_world
+	insert bedroom.room!indoors
+	insert bedroom.noun!"The bedroom"
+	call make_compass_directions_symmetric
+	insert process.movement
+	insert process.movement_to_familiar_places
+	insert global.settings.allow_npcs_to_roam_free
+end
+
