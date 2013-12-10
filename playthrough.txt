@@ -1,5 +1,9 @@
 Playthrough skeleton for Fob Rord
 
+wes volunteered as tribute to edit praxis protentailly to make a high condition/ character state , which can restrict actions
+
+
+
 "Fob Rord"
 
 A modern story by the kids who sit in the back corner.
@@ -11,6 +15,8 @@ Deputy Mayor (playable) ... Alice Lin
 Council Member ... Storm Sparks
 Another Council Member ... Jordan Fischer
 Yet Another Employee ... Dave Johnston
+
+everyone is an acquaintance because if they're strngers they start introducing themselves to each other nd its annoying.
 
 *** Scenario ***
 
@@ -29,12 +35,36 @@ Display rob blurb
 
 (About Meeting Preparation Decision)
 
+this is an actual choice - see 7.6 events leading ot other actions
+
+maybe see activities? (Going on to T.) 7.1
+
+Some events make a situation so urgent that it has to be dealt with immediately, and for those times, we can use Choices.
+
+	*** Event - Letter arrives (background, during Breakfast only) ***
+
+	Narration: A postman interrupts with an envelope for Storm to sign for.
+
+	Choice (Letter accepted): Storm takes the letter from the postman. But it's a
+	subpoena for a mammoth lawsuit!
+	-- Sign for it
+
+	Choice: Storm refuses to accept the letter, and the postman takes it away,
+	a little piqued.
+	-- Refuse to take it
+
+If a choice has another event named in brackets after "Choice", then that event happens immediately the choice is made. It can't happen at any other time, so no conditions should be supplied:
+
+	*** Event - Letter accepted ***
+
+	(The letter is carried by Storm.)
+
 provide blurb ... you're about to address the council, this is usually normal for you but you have a sneaking suspicion that someone in teh audience knows about your ways. you'll have to be careful in what you say. however, you're coming down from a coke high. you could maintain appearances by taking some more, or you could not do illegal drugs and risk looking sweaty and anxious. ???
 
-Character speech
+Character speech --> get drunk/high
 -- Snort a line to take the edge off.
 
-Character speech
+Character speech --> NOT get drunk/high
 -- Go in cold, hope for the best.
 
 continue on...
@@ -42,8 +72,10 @@ continue on...
 
 (About Starting Meeting)
 
-remember your state is either high or coming down
+remember your state is either high or coming down... maybe drunk because we have experience
 what the fuck do high people vs coming down people act like
+
+so then calling meeting to order might be impacted by character state? check feasibility.
 
 Mayor calls meeting to order. some text. 
 -- Call meeting to order casually/friendly
@@ -57,20 +89,48 @@ Mayor calls meeting to order. some text.
 Mayor calls meeting to order. some text. 
 -- Call meeting to order authortatively/aggressively
 
+// prompt all characters to rate dude based on intro... this person looks unprof balhblah
 
-Does anyone have something they'd like to share first off the bat?
--- Ask someone to summarize the notes of last meeting or pressing announcements.
+-- you summarize last meeting
+-- you ask for pressing news from audience
+-- do nothing --> you stand awkwardly, normal person brings up minutes from last meeting
+-- Ask for first item on the agenda? or summary of last meeting?
 
 Last meeting we accomplished nothing.
 -- Summarize last meeting's notes himself.
 
-prompt all characters to rate dude based on intro
+dear so and so, please review for us....blahblah
+-- Ask Notetaker to summarize notes of last meeting
 
 Does anyone have something they'd like to discuss first?
 -- Ask for first item on the agenda
+Does anyone have something they'd like to share first off the bat?
+-- Ask aduience for pressing announcements.
+
+
+upon start of meeting
+-- compliment a councilmember
+	--> if drunk: inappropriate comment... councilmembers judge him, think he is drunk
+	--> if sober: viewed as friendly?
+-- ask a councilmember about day
+	--> if drunk:
+	--> if sober:
+
+we need to put up more bus stops and shit
+-- discuss transportation
 
 
 
-wes volunteered as tribute to edit praxis protentailly to make a high condition/ character state , which can restrict actions
+Topics to discuss
+- taxes
+- transportation --> downtown
 
+
+Goal topics
+- crack
+-prostitutes
+
+
+(about coke)
+one of council members: 
 
