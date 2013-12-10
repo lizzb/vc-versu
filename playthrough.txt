@@ -1,6 +1,76 @@
 Playthrough skeleton for Fob Rord
 
+"Fob Rord"
+
+A modern story by the kids who sit in the back corner.
+
+*** Cast ***
+
+Mayor (playable) ... Linus Bergstrom
+Deputy Mayor (playable) ... Alice Lin
+Council Member ... Storm Sparks
+Another Council Member ... Jordan Fischer
+Yet Another Employee ... Dave Johnston
+
+*** Scenario ***
+
+The town hall is indoors.
+
+// we should add more descriptions here
+
 //in a character file for fob rord - he once did coke in one of his drunken stupors.
 // this may or may not have resulted in the death of a hooker. 
 // this is not information he'd like others to learn,
 //but he fears someone has caught on to his secret...
+
+
+Display rob blurb
+
+
+(About Meeting Preparation Decision)
+
+provide blurb ... you're about to address the council, this is usually normal for you but you have a sneaking suspicion that someone in teh audience knows about your ways. you'll have to be careful in what you say. however, you're coming down from a coke high. you could maintain appearances by taking some more, or you could not do illegal drugs and risk looking sweaty and anxious. ???
+
+Character speech
+-- Snort a line to take the edge off.
+
+Character speech
+-- Go in cold, hope for the best.
+
+continue on...
+
+
+(About Starting Meeting)
+
+remember your state is either high or coming down
+what the fuck do high people vs coming down people act like
+
+Mayor calls meeting to order. some text. 
+-- Call meeting to order casually/friendly
+
+Mayor calls meeting to order. some text. 
+-- Call meeting to order drunkenly
+
+Mayor calls meeting to order. some text. 
+-- Call meeting to order professionally
+
+Mayor calls meeting to order. some text. 
+-- Call meeting to order authortatively/aggressively
+
+
+Does anyone have something they'd like to share first off the bat?
+-- Ask someone to summarize the notes of last meeting or pressing announcements.
+
+Last meeting we accomplished nothing.
+-- Summarize last meeting's notes himself.
+
+prompt all characters to rate dude based on intro
+
+Does anyone have something they'd like to discuss first?
+-- Ask for first item on the agenda
+
+
+
+wes volunteered as tribute to edit praxis protentailly to make a high condition/ character state , which can restrict actions
+
+
