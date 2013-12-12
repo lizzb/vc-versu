@@ -27,22 +27,24 @@ The office is indoors.
 
 (Linus is in the office. Conversation is restricted.)
 
-Narration: Rob Ford is in his office preparing for the city council meeting. He's tired and annoyed with having to attend so many meetings to discuss important city issues. He wonders why mayors cant just sit around snorting coke.
+Narration: Fob Rord is in his office preparing for the city council meeting. He's tired and annoyed with having to attend so many meetings to discuss important city issues. He wonders why mayors cant just sit around snorting coke.
 
-Choice (Discussing city issues while high): Rob Ford does a line off of the Constitution of Canada. That really hit the spot.
+Choice (Snorting coke): Fob Rord does a line off of the Constitution of Canada. That really hit the spot.
 -- Take the edge off.
 
-Choice (Discussing city issues): Rob Ford decides to man up and brave the eternal torment that is civic duty.
+Choice (Discussing city issues): Fob Rord decides to man up and brave the eternal torment that is civic duty.
 -- Go to the meeting.
+
+*** Scene - Snorting coke ***
+
+(Linus is happy.)
+
+Narration: Ready to face the world, Fob Rord swaggers over to the meeting.
+
+(End if Linus is happy and go to Discussing city issues.)
 
 *** Scene - Discussing city issues ***
 
 (Linus, Alice, and Storm are in the city hall. Conversation is restricted.)
 
 Storm: I am a banana!
-
-*** Scene - Discussing city issues while high ***
-
-(Linus, Alice, and Storm are in the city hall. Conversation is restricted.)
-
-Linus: I am high!
