@@ -62,7 +62,7 @@ Narration: Ready to face the world, Fob Rord swaggers over to the meeting.
 -- Quiet Everyone
 
 Anyone but Linus: Woah buddy, take a chill pill.
-(He openly rates Linus's accomplishment 10% lower.)
+(Alice rates Linus's accomplishment 10% lower.)
 
 (Going on to topics.)
 
@@ -83,4 +83,9 @@ Anyone but Linus: Sorry. Okay, the meeting is now in session.
 (>) Anyone but Linus: Sorry. Okay, the meeting is now in session.
 
 (Going on to topics.)
+
+
+
+
+(if Alice rates Linus's accomplishment as terrible) Anyone but Linus: Banana!
 
