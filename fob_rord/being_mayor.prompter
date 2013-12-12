@@ -6,14 +6,47 @@ A modern story by the kids in the back.
 
 Mayor (playable) ... Linus Bergstrom
 Deputy Mayor ... Storm Sparks
+Council Member ... Alice Lin
+Another Council Member ... Jordan Fischer
+Yet Another Council Member ... Dave Johnston
 
 *** Scenario ***
 
-Linus is a friend of Storm. 
+The city hall is indoors.
 
-*** Scene - Linus comes in to work ***
+The office is indoors.
 
-(Linus and Storm are in the town hall. The scene is about intros. Conversation is restricted.)
+Alice, Storm, Jordan, and Dave are friends of Linus.
+
+Storm, Jordan, and Dave are friends of Alice.
+
+Jordan and Dave are friends of Storm.
+
+Dave is a friend of Jordan.
+
+*** Scene - The Mayor Prepares for the meeting ***
+
+(Linus is in the office. Conversation is restricted.)
+
+Narration: Fob Rord is in his office preparing for the city council meeting. He's tired and annoyed with having to attend so many meetings to discuss important city issues. He wonders why mayors cant just sit around snorting coke.
+
+Choice (Snorting coke): Fob Rord snorts a line off of the Constitution of Canada. That really hit the spot.
+-- Take the edge off.
+
+Choice (Discussing city issues): Fob Rord decides to man up and brave the eternal torment that is civic duty.
+-- Go to the meeting.
+
+*** Scene - Snorting coke ***
+
+(Linus is happy.)
+
+Narration: Ready to face the world, Fob Rord swaggers over to the meeting.
+
+(End if Linus is happy and go to Discussing city issues.)
+
+*** Scene - Discussing city issues ***
+
+(Linus and Storm and Alice and Jordan and Dave are in the town hall. The scene is about intros. Conversation is restricted.)
 
 Narration: Mayor Linus is presiding over a city council meeting.
 
@@ -50,7 +83,7 @@ Anyone else: I totally agree.
 (b) Linus: Or should I say, drug opportunity. Close-minded fools are thinking of this as a problem, but in fact drugs can boost productivity, and we should be encouraging their use and providing them in schools.
 
 Anyone else: Are you insane? Drugs ruin lives, how can you suggest giving them to kids.
-(Storm rates Linus's accomplishment 90% lower.)
+(Storm rates Linus's accomplishment 80% lower.)
 -- BS, drugs ruin lives
 
 (Going on to beginning.)
@@ -73,17 +106,17 @@ Anyone else: Why?.
 Linus: because I fucking say so, thats why.
 
 Anyone else: This is a democracy, you can't do that.
-(Storm rates Linus's accomplishment 50% lower.)
+(Storm rates Linus's accomplishment 80% lower.)
 
 (Going on to beginning.)
 
 (About beginning.)
 
-(if Storm rates Linus's accomplishment as worse than neutral) Linus: I think you suck as mayor.
+(if Storm rates Linus's accomplishment as worse than neutral) Linus: I think I suck as mayor.
 
-(End if Storm rates Linus's accomplishment as worse than neutral and go to The End.)
+(End if Storm rates Linus's accomplishment as terrible and go to The End.)
 
-(End if there is a lull where Linus is and 75 ticks have passed and go to Success.)
+(End if there is a lull where Linus is and 100 ticks have passed and go to Success.)
 
 *** Scene - The End ***
 
