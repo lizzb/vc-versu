@@ -55,7 +55,7 @@ Narration: Ready to face the world, Fob Rord swaggers over to the meeting.
 
 (Linus, Jordan, Dave, Alice, and Storm are in the city hall. Conversation is restricted. The scene is about starting.)
 
-(About Starting)
+(About starting.)
 
 (if Linus is happy) 
 (a) Linus: Shut up everyone! Let's get this over with.
@@ -64,28 +64,89 @@ Narration: Ready to face the world, Fob Rord swaggers over to the meeting.
 Anyone but Linus: Woah buddy, take a chill pill.
 (Alice rates Linus's accomplishment 10% lower.)
 
-(Going on to topics.)
-
+(if Linus is happy) 
 (b) Linus: Alright everyone, let's please get started.
 -- Let's start
-
-Anyone but Linus: Sorry. Okay, the meeting is now in session.
-
-(Going on to topics.)
 
 (if Linus is not happy)
 (c) Linus: Can everyone please quiet down? We need to start the meeting.
 -- Quiet Everyone
 
+(if Linus is not happy)
 (d) Linus: Alright everyone, let's please get started.
 -- Let's start
 
-(>) Anyone but Linus: Sorry. Okay, the meeting is now in session.
+(Going on to drugs.)
 
-(Going on to topics.)
+Linus: Right now, I think we should talk about the growing drug problem among our youths. 
+-- talk about drugs.
+
+(Continuing on drugs.)
+
+(a) Linus: Personally, i think that it's a simple case of a few problematic individuals getting addicted and then pressuring their peers into doing drugs also. 
+
+(aa) Linus: We need to step up enforcement to arrest the problematic children to get them away from their peers. 
+
+Anyone else: That seems very harsh, identifying them may be wise, but we should try to rehabilitate them instead.
+(Alice rates Linus's accomplishment 10% lower.)
+
+(Going on to beginning.)
+
+(ab) Linus: We need to add more educational programs at schools to teach kids about how dangerous drugs are.
+
+Anyone else: I totally agree.
+(Alice rates Linus's accomplishment 20% higher.)
+
+(Going on to beginning.)
+
+(b) Linus: Or should I say, drug opportunity. Close-minded fools are thinking of this as a problem, but in fact drugs can boost productivity, and we should be encouraging their use and providing them in schools.
+
+Anyone else: Are you insane? Drugs ruin lives, how can you suggest giving them to kids.
+(Alice rates Linus's accomplishment 90% lower.)
+-- BS, drugs ruin lives
+
+(Going on to beginning.)
+
+(Continuing on beginning.)
+
+Linus: I think that we should talk about public transportation in this city. 
+
+(a) Linus: People are getting fat, we should remove all public transportation so that people have to walk places to make them lose weight.
+
+Anyone else: That seems like we'd be overstepping our bounds.
+
+(Going on to beginning.)
+
+(b) Linus: We need more subways.
+
+Anyone else: Why?.
+-- ask why
+
+Linus: because I fucking say so, thats why.
+
+Anyone else: This is a democracy, you can't do that.
+(Alice rates Linus's accomplishment 50% lower.)
+
+(Going on to beginning.)
+
+(About beginning.)
+
+(if Alice rates Linus's accomplishment as worse than neutral) Anyone but Linus: I think you suck as mayor.
 
 
+(End if Alice rates Linus's accomplishment as worse than neutral and go to The End.)
 
+(End if there is a lull where Linus is and 75 ticks have passed and go to Success.)
 
-(if Alice rates Linus's accomplishment as terrible) Anyone but Linus: Banana!
+*** Scene - The End ***
+
+(Linus is in The Jail. the scene is about getting arrested.)
+
+Narration: It's the fucking end, you've been put in jail for being an awful mayor.
+
+*** Scene - Success ***
+
+(Linus is in Linus's House.)
+
+Narration: It's the end, you made it through the meeting successfully and are now at home.
 
