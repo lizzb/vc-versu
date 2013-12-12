@@ -8,13 +8,21 @@ Mayor (playable) ... Linus Bergstrom
 Deputy Mayor ... Alice Lin
 Council Member ... Storm Sparks
 Another Council Member ... Jordan Fischer
-Yet Another Employee ... Dave Johnston
+Yet Another Council Member ... Dave Johnston
 
 *** Scenario ***
 
 The city hall is indoors.
 
 The office is indoors.
+
+Alice, Storm, Jordan, and Dave are friends of Linus.
+
+Storm, Jordan, and Dave are friends of Alice.
+
+Jordan and Dave are friends of Storm.
+
+Dave is a friend of Jordan.
 
 // we should add more descriptions here
 
@@ -45,6 +53,34 @@ Narration: Ready to face the world, Fob Rord swaggers over to the meeting.
 
 *** Scene - Discussing city issues ***
 
-(Linus, Alice, and Storm are in the city hall. Conversation is restricted.)
+(Linus, Jordan, Dave, Alice, and Storm are in the city hall. Conversation is restricted. The scene is about starting.)
 
-Storm: I am a banana!
+(About Starting)
+
+(if Linus is happy) 
+(a) Linus: Shut up everyone! Let's get this over with.
+-- Quiet Everyone
+
+Anyone but Linus: Woah buddy, take a chill pill.
+(He openly rates Linus's accomplishment 10% lower.)
+
+(Going on to topics.)
+
+(b) Linus: Alright everyone, let's please get started.
+-- Let's start
+
+Anyone but Linus: Sorry. Okay, the meeting is now in session.
+
+(Going on to topics.)
+
+(if Linus is not happy)
+(c) Linus: Can everyone please quiet down? We need to start the meeting.
+-- Quiet Everyone
+
+(d) Linus: Alright everyone, let's please get started.
+-- Let's start
+
+(>) Anyone but Linus: Sorry. Okay, the meeting is now in session.
+
+(Going on to topics.)
+
