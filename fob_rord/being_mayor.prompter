@@ -1,0 +1,98 @@
+"Being Mayor"
+
+A modern story by the kids in the back.
+
+*** Cast ***
+
+Mayor (playable) ... Linus Bergstrom
+Deputy Mayor ... Storm Sparks
+
+*** Scenario ***
+
+Linus is a friend of Storm. 
+
+*** Scene - Linus comes in to work ***
+
+(Linus and Storm are in the town hall. The scene is about intros. Conversation is restricted.)
+
+Narration: Mayor Linus is presiding over a city council meeting.
+
+(About intros.)
+
+Linus: Time to start this meeting.
+
+(Going on to beginning.)
+
+Linus: Lets see what our first item of discussion should be...
+
+(Continuing on beginning.)
+
+Linus: Right now, i think we should talk about the growing drug problem among our youths. 
+
+(Going on to drugs.)
+
+(a) Linus: Personally, i think that it's a simple case of a few problematic individuals getting addicted and then pressuring their peers into doing drugs also. 
+
+(aa) Linus: We need to step up enforcement to arrest the problematic children to get them away from their peers. 
+
+Anyone else: That seems very harsh, identifying them may be wise, but we should try to rehabilitate them instead.
+(Storm rates Linus's accomplishment 10% lower.)
+
+(Going on to beginning.)
+
+(ab) Linus: We need to add more educational programs at schools to teach kids about how dangerous drugs are.
+
+Anyone else: I totally agree.
+(Storm rates Linus's accomplishment 20% higher.)
+
+(Going on to beginning.)
+
+(b) Linus: Or should I say, drug opportunity. Close-minded fools are thinking of this as a problem, but in fact drugs can boost productivity, and we should be encouraging their use and providing them in schools.
+
+Anyone else: Are you insane? Drugs ruin lives, how can you suggest giving them to kids.
+(Storm rates Linus's accomplishment 90% lower.)
+-- BS, drugs ruin lives
+
+(Going on to beginning.)
+
+(Continuing on beginning.)
+
+Linus: I think that we should talk about public transportation in this city. 
+
+(a) Linus: People are getting fat, we should remove all public transportation so that people have to walk places to make them lose weight.
+
+Anyone else: That seems like we'd be overstepping our bounds.
+
+(Going on to beginning.)
+
+(b) Linus: We need more subways.
+
+Anyone else: Why?.
+-- ask why
+
+Linus: because I fucking say so, thats why.
+
+Anyone else: This is a democracy, you can't do that.
+(Storm rates Linus's accomplishment 50% lower.)
+
+(Going on to beginning.)
+
+(About beginning.)
+
+(if Storm rates Linus's accomplishment as worse than neutral) Linus: I think you suck as mayor.
+
+(End if Storm rates Linus's accomplishment as worse than neutral and go to The End.)
+
+(End if there is a lull where Linus is and 75 ticks have passed and go to Success.)
+
+*** Scene - The End ***
+
+(Linus is in The Jail. the scene is about getting arrested.)
+
+Narration: It's the fucking end, you've been put in jail for being an awful mayor.
+
+*** Scene - Success ***
+
+(Linus is in Linus' House.)
+
+Narration: It's the end, you made it through the meeting successfully and are now at home.
