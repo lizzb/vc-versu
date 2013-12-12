@@ -5,14 +5,16 @@ A modern story by the kids who sit in the back corner.
 *** Cast ***
 
 Mayor (playable) ... Linus Bergstrom
-Deputy Mayor (playable) ... Alice Lin
+Deputy Mayor ... Alice Lin
 Council Member ... Storm Sparks
 Another Council Member ... Jordan Fischer
 Yet Another Employee ... Dave Johnston
 
 *** Scenario ***
 
-The town hall is indoors.
+The city hall is indoors.
+
+The office is indoors.
 
 // we should add more descriptions here
 
@@ -21,8 +23,26 @@ The town hall is indoors.
 // this is not information he'd like others to learn,
 //but he fears someone has caught on to his secret...
 
-*** Scene - Everyone is discussing city issues ***
+*** Scene - The Mayor Prepares for the meeting ***
 
-(Linus, Alice, and Storm are in the town hall. Conversation is restricted.)
+(Linus is in the office. Conversation is restricted.)
+
+Narration: Rob Ford is in his office preparing for the city council meeting. He's tired and annoyed with having to attend so many meetings to discuss important city issues. He wonders why mayors cant just sit around snorting coke.
+
+Choice (Discussing city issues while high): Rob Ford does a line off of the Constitution of Canada. That really hit the spot.
+-- Take the edge off.
+
+Choice (Discussing city issues): Rob Ford decides to man up and brave the eternal torment that is civic duty.
+-- Go to the meeting.
+
+*** Scene - Discussing city issues ***
+
+(Linus, Alice, and Storm are in the city hall. Conversation is restricted.)
 
 Storm: I am a banana!
+
+*** Scene - Discussing city issues while high ***
+
+(Linus, Alice, and Storm are in the city hall. Conversation is restricted.)
+
+Linus: I am high!
