@@ -1,12 +1,12 @@
-"Fob Rord"
+"Being Mayor"
 
-A modern story by the kids who sit in the back corner.
+A modern story by the kids in the back.
 
 *** Cast ***
 
 Mayor (playable) ... Linus Bergstrom
-Deputy Mayor ... Alice Lin
-Council Member ... Storm Sparks
+Deputy Mayor ... Storm Sparks
+Council Member ... Alice Lin
 Another Council Member ... Jordan Fischer
 Yet Another Council Member ... Dave Johnston
 
@@ -24,20 +24,13 @@ Jordan and Dave are friends of Storm.
 
 Dave is a friend of Jordan.
 
-// we should add more descriptions here
-
-//in a character file for fob rord - he once did coke in one of his drunken stupors.
-// this may or may not have resulted in the death of a hooker. 
-// this is not information he'd like others to learn,
-//but he fears someone has caught on to his secret...
-
 *** Scene - The Mayor Prepares for the meeting ***
 
 (Linus is in the office. Conversation is restricted.)
 
-Narration: Fob Rord is in his office preparing for the city council meeting. He's tired and annoyed with having to attend so many meetings to discuss important city issues. He wonders why mayors cant just sit around snorting coke.
+Narration: Linus is Fob Rord, who is in his office preparing for the city council meeting. He's tired and annoyed with having to attend so many meetings to discuss important city issues. He wonders why mayors cant just sit around snorting coke.
 
-Choice (Snorting coke): Fob Rord does a line off of the Constitution of Canada. That really hit the spot.
+Choice (Snorting coke): Fob Rord snorts a line off of the Constitution of Canada. That really hit the spot.
 -- Take the edge off.
 
 Choice (Discussing city issues): Fob Rord decides to man up and brave the eternal torment that is civic duty.
@@ -53,100 +46,150 @@ Narration: Ready to face the world, Fob Rord swaggers over to the meeting.
 
 *** Scene - Discussing city issues ***
 
-(Linus, Jordan, Dave, Alice, and Storm are in the city hall. Conversation is restricted. The scene is about starting.)
+Narration: Mayor Linus is presiding over a city council meeting.
 
-(About starting.)
+(Linus and Storm and Alice and Jordan and Dave are in the town hall. The scene is about topics. Conversation is restricted.)
 
-(if Linus is happy) 
-(a) Linus: Shut up everyone! Let's get this over with.
--- Quiet Everyone
+(About topics.)
 
-Anyone but Linus: Woah buddy, take a chill pill.
-(Alice rates Linus's accomplishment 10% lower.)
+Linus: Time to start this meeting.
+>> Let's see what our first item of discussion will be...
+-- start meeting
 
-(if Linus is happy) 
-(b) Linus: Alright everyone, let's please get started.
--- Let's start
+(About topics.)
 
-(if Linus is not happy)
-(c) Linus: Can everyone please quiet down? We need to start the meeting.
--- Quiet Everyone
-
-(if Linus is not happy)
-(d) Linus: Alright everyone, let's please get started.
--- Let's start
+Linus: Right now, I think we should talk about the growing drug problem among our youths.
 
 (Going on to drugs.)
 
-Linus: Right now, I think we should talk about the growing drug problem among our youths. 
--- talk about drugs.
+Storm: We don't seem to have any good solutions.
 
-(Continuing on drugs.)
+Dave: I think it is completely out of control.
 
-(a) Linus: Personally, i think that it's a simple case of a few problematic individuals getting addicted and then pressuring their peers into doing drugs also. 
+Alice: It's just a shame.
 
-(aa) Linus: We need to step up enforcement to arrest the problematic children to get them away from their peers. 
+Jordan: We should step up police enforcement.
 
+Dave: Agreed, the more police need to be cracking down on everyone doing any sort of illicite substances.
+
+Storm: I wouldn't want to go overboard and destroy someone's life for making a simple mistake.
+
+(a) Linus: Personally, I think that it's a simple case of a few problematic individuals getting addicted and then pressuring their peers into doing drugs also.
+
+(aa) Linus: We need to step up enforcement to arrest the problematic children to get them away from their peers.
 Anyone else: That seems very harsh, identifying them may be wise, but we should try to rehabilitate them instead.
-(Alice rates Linus's accomplishment 10% lower.)
-
-(Going on to beginning.)
+(Storm rates Linus's accomplishment 10% lower.)
 
 (ab) Linus: We need to add more educational programs at schools to teach kids about how dangerous drugs are.
+-- Lets be smart
 
 Anyone else: I totally agree.
-(Alice rates Linus's accomplishment 20% higher.)
+(Storm rates Linus's accomplishment 60% higher.)
 
-(Going on to beginning.)
+(b) Linus: Drug problem, or should I say, drug opportunity. Close-minded fools are thinking of this as a problem, but in fact drugs can boost productivity, and we should be encouraging their use and providing them in schools.
+-- drug opportunities
 
-(b) Linus: Or should I say, drug opportunity. Close-minded fools are thinking of this as a problem, but in fact drugs can boost productivity, and we should be encouraging their use and providing them in schools.
+Dave: Clearly drugs are bad.
 
 Anyone else: Are you insane? Drugs ruin lives, how can you suggest giving them to kids.
-(Alice rates Linus's accomplishment 90% lower.)
--- BS, drugs ruin lives
+(Storm rates Linus's accomplishment 80% lower.)
 
-(Going on to beginning.)
+(ba) Linus: I can say that drugs would never stop someone from being Mayor!
 
-(Continuing on beginning.)
+(bb) Linus: We need to teach students how to work for themselves! 
+(Storm rates Linus's accomplishment 20% lower)
 
-Linus: I think that we should talk about public transportation in this city. 
+(Later, About drugs.)
 
-(a) Linus: People are getting fat, we should remove all public transportation so that people have to walk places to make them lose weight.
+(if Storm rates Linus's accomplishment as worse than neutral) Storm (to Linus): Have you ever used drugs.
 
-Anyone else: That seems like we'd be overstepping our bounds.
+Linus (to Storm): I may have, in a drunken stuper.
+(Storm rates Linus's accomplishment 200% lower.)
 
-(Going on to beginning.)
+(Going on to topics.)
 
-(b) Linus: We need more subways.
+(About topics.)
 
+(End if Storm rates Linus's accomplishment as terrible and go to The End.)
+
+(About topics.)
+
+Linus: I think that we should talk about public transportation in this city.
+
+(Going on to transportation)
+
+(a)Linus: People are getting fat, we should remove all public transportation so that people have to walk places to make them lose weight.
+-- People are fat!
+Jordan: That's terrible! People need to be able to get to work
+Storm: You sir, are an idiot
+(Storm rates Linus's accomplishment 10% lower.)
+
+(b) Linus: How are the bus improvements coming?
+-- Progress Report
+Dave: It is about 30% done and on track for next summer
+(Storm rates Linus's accomplishment 10% higher.)
+
+(c) Linus: We need more subways.
+-- Subways
 Anyone else: Why?.
--- ask why
-
 Linus: because I fucking say so, thats why.
-
 Anyone else: This is a democracy, you can't do that.
-(Alice rates Linus's accomplishment 50% lower.)
+(Storm rates Linus's accomplishment 80% lower.)
 
-(Going on to beginning.)
+(About topics.)
 
-(About beginning.)
+Linus: Let's talk about controlling the spread of STI's.
 
-(if Alice rates Linus's accomplishment as worse than neutral) Anyone but Linus: I think you suck as mayor.
+(Going on to Sex)
+
+Storm: We should consider making more educational resources.
+
+Jordan: People just need to control themselves.
+
+Dave: We should provide more resources, especially to teens.
+
+(a) Linus: I think we should talk about the nonexistent rampant spread of STI's. Obviously we need to legalize prostitution.
+
+Anyone else (to Linus): ... I think 90% of the public would be against that.
+>> Legality hasn't bothered you before. What was it that waitress said?.
+
+(Storm rates Linus's accomplishment 50% lower.)
+
+(aa) Linus: That waitress was a liar, I don't need anything from her, I have enough to eat at home!
+-- Refute
+
+(ab) Linus: My private life is none of your business
+-- Evade
+
+(ac) Linus: This isn't my trial!
+-- Express Annoyance
+
+(b) Linus: We're doing a great job of educating high school students so far but I think we should raise more awareness about testing.
+
+(Continuing on topics.)
 
 
-(End if Alice rates Linus's accomplishment as worse than neutral and go to The End.)
 
-(End if there is a lull where Linus is and 75 ticks have passed and go to Success.)
+(About topics.)
+
+(End if Storm rates Linus's accomplishment as terrible and go to The End.)
+
+(End if there is a lull where Linus is and 250 ticks have passed and go to Success.)
 
 *** Scene - The End ***
 
 (Linus is in The Jail. the scene is about getting arrested.)
 
-Narration: It's the fucking end, you've been put in jail for being an awful mayor.
+(About getting arrested)
+
+Storm: You are a terrible person and a liar.
+
+Linus: I didn't lie, you didn't ask the right questions.
+
+Narration: It's the fucking end, your going to jail for being an awful mayor.
 
 *** Scene - Success ***
 
-(Linus is in Linus's House.)
+(Linus is in Linus' House.)
 
 Narration: It's the end, you made it through the meeting successfully and are now at home.
-
